@@ -295,6 +295,9 @@
     </button>
 
   </form>
+  <div class="success-message" id="successMessage">
+  Message Sent Successfully ✅
+</div>
 
 </div>
   <!-- COPYRIGHT FOOTER
@@ -317,6 +320,17 @@
   </script> -->
 
   <script src="toggle.js"></script>
+  <script>
+
+const form = document.querySelector(".contact-form");
+
+form.addEventListener("submit", () => {
+
+  alert("Message sent successfully ✅");
+
+});
+
+</script>
 
 
 
