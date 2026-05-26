@@ -203,39 +203,43 @@
 <!-- CONTACT FORM -->
 <div class="contact-form-wrapper">
 
-  <h2 class="contact-title">Send Me a <span>Message</span></h2>
+  <h2 class="contact-title">
+    Send Me a <span>Message</span>
+  </h2>
 
-  <form class="contact-form">
+  <form
+    class="contact-form"
+    action="https://formsubmit.co/nikhilk9226@gmail.com"
+    method="POST"
+  >
+
     <div class="input-group">
-      <input type="text" required>
+      <input type="text" name="name" required>
       <label>Full Name</label>
     </div>
 
     <div class="input-group">
-      <input type="email" required>
+      <input type="email" name="email" required>
       <label>Email Address</label>
     </div>
 
     <div class="input-group">
-      <input type="text" required>
+      <input type="text" name="subject" required>
       <label>Subject</label>
     </div>
 
     <div class="input-group textarea">
-      <textarea rows="5" required></textarea>
+      <textarea name="message" rows="5" required></textarea>
       <label>Your Message</label>
     </div>
 
     <button type="submit" class="contact-btn">
       Send Message
     </button>
+
   </form>
 
 </div>
-
-
-
-
   <!-- COPYRIGHT FOOTER
   <footer class="copyright-footer">
     <p>© 2026 Nikhil Kumar. All Rights Reserved.</p>
