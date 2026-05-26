@@ -587,12 +587,9 @@ body{
 /* =========================
    PROJECTS
 ========================= */
-
 .projects-section{
-  padding:7rem 8%;
-  scroll-margin-top:90px;
+  padding:35px 8% 120px;
 }
-
 .projects-header{
   text-align:center;
   max-width:650px;
