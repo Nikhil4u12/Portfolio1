@@ -213,27 +213,84 @@
     method="POST"
   >
 
+    <!-- Redirect After Submit -->
+    <input
+      type="hidden"
+      name="_next"
+      value="https://nikhilkumarin.netlify.app/"
+    >
+
+    <!-- Disable Captcha -->
+    <input
+      type="hidden"
+      name="_captcha"
+      value="false"
+    >
+
+    <!-- Email Subject -->
+    <input
+      type="hidden"
+      name="_subject"
+      value="New Portfolio Contact!"
+    >
+
+    <!-- FULL NAME -->
     <div class="input-group">
-      <input type="text" name="name" required>
+
+      <input
+        type="text"
+        name="name"
+        required
+      >
+
       <label>Full Name</label>
+
     </div>
 
+    <!-- EMAIL -->
     <div class="input-group">
-      <input type="email" name="email" required>
+
+      <input
+        type="email"
+        name="email"
+        required
+      >
+
       <label>Email Address</label>
+
     </div>
 
+    <!-- SUBJECT -->
     <div class="input-group">
-      <input type="text" name="subject" required>
+
+      <input
+        type="text"
+        name="subject"
+        required
+      >
+
       <label>Subject</label>
+
     </div>
 
+    <!-- MESSAGE -->
     <div class="input-group textarea">
-      <textarea name="message" rows="5" required></textarea>
+
+      <textarea
+        name="message"
+        rows="5"
+        required
+      ></textarea>
+
       <label>Your Message</label>
+
     </div>
 
-    <button type="submit" class="contact-btn">
+    <!-- BUTTON -->
+    <button
+      type="submit"
+      class="contact-btn"
+    >
       Send Message
     </button>
 
